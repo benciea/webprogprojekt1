@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Órarend</title>
+</head>
+    <body onload="dark()">
+        <button onclick="dark()"><img src="darkmode.png" alt="Sötét nézet gomb"></button>
+        <script>
+           function dark(){
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+           }
+        </script>
+            <h1>Órarend</h1>
+        <div class="container">
+            <div class="ido">
+                <div class="naptext">Idő</div>
+                <div class="idotext">8:00</div>
+                <div class="idotext">8:55</div>                
+                <div class="idotext">9:55</div>                
+                <div class="idotext">10:50</div>                
+                <div class="idotext">11:45</div>                
+                <div class="idotext">12:45</div>                
+                <div class="idotext">13:40</div>                
+            </div>
+            <div class="nap">
+                <div class="naptext">Hétfő</div>
+                <div class="ora">Webprog.</div>
+                <div class="ora">Szoft.fejl.</div>                
+                <div class="ora">Irodalom</div>                
+                <div class="ora">Törti</div>                
+                <div class="ora">Törti</div>                
+                <div class="ora">Szoft.fejl.</div>                
+                <div class="ora">Német</div>                
+            </div>
+
+            <div class="nap">
+                <div class="naptext">Kedd</div>
+                <div class="ora">Német</div>
+                <div class="ora">Webfejl.</div> 
+                <div class="ora">Angol</div> 
+                <div class="ora">Tesi</div> 
+                <div class="ora">Töri</div> 
+                <div class="ora">Angol</div>                
+                <div class="ora">Matek</div> 
+            </div>
+            <div class="nap">
+                <div class="naptext">Szerda</div>
+                <div class="ora">Angol</div>
+                <div class="ora">Matek</div> 
+                <div class="ora">Matek</div> 
+                <div class="ora">Angol</div> 
+                <div class="ora">Szoft.fejl.</div> 
+                <div class="ora">Tesi</div>                
+                <div class="ora">-</div> 
+            </div>
+            <div class="nap">
+                <div class="naptext">Csütörtök</div>
+                <div class="ora">-</div>
+                <div class="ora">Web.fejl.</div> 
+                <div class="ora">Szoft.fejl.</div> 
+                <div class="ora">Tesi</div> 
+                <div class="ora">Nyelvtan</div> 
+                <div class="ora">Német</div>                
+                <div class="ora">-</div> 
+            </div>
+            <div class="nap">
+                <div class="naptext">Péntek</div>
+                <div class="ora">Angol</div>
+                <div class="ora">Irodalom</div> 
+                <div class="ora">Töri</div> 
+                <div class="ora">Matek</div> 
+                <div class="ora">Angol</div> 
+                <div class="ora">Szoft.fejl.</div>                
+                <div class="ora">-</div> 
+            </div>
+        </div>
+     </body>
+</html>

@@ -1,0 +1,113 @@
+body {
+    padding: 25px;
+    background-size: cover;
+    background-image: url(bg.png);
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+  
+.dark-mode {
+    background-image: url(bg2.png);
+    background-size: cover;
+    background-color: black;
+    color: white;
+    
+}
+
+
+button {
+margin-left: 95%;
+box-shadow: 0px 1px 0px 0px #1c1b18;
+	background:linear-gradient(to bottom, #ab65bd 5%, #9c55bb 100%);
+	background-color:#eae0c2;
+	border-radius:15px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+    padding: 5px;
+	text-shadow:0px 1px 0px #ffffff;
+    position: absolute;
+    right: 1%;
+}
+
+button:hover {
+	background:linear-gradient(to bottom, #9c55bb 5%, #ab65bd 100%);
+	background-color:#ccc2a6;
+}
+
+button img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.container {
+    display: flex;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 25%);
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    /*gap: 50px;*/
+    gap: 4%;
+}
+
+.naptext, .ora {
+    border-radius: 25%;
+    text-align: center;
+    padding: 10px 0;
+    height: 40px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.ora {
+    /*background: linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);*/
+    background: linear-gradient(to bottom, #c49ecd 5%, #c4a5e1 100%);
+    text-shadow: 2px 2px rgba(0,0,0,0.3);
+
+}
+
+.naptext, .idotext {
+    /*background: linear-gradient(to bottom, #d3ab7d 5%, #db9f4b 100%);*/
+    background: linear-gradient(to bottom, #ab65bd 5%, #9c55bb 100%);
+    text-shadow: 2px 2px rgba(0,0,0,0.3);
+}
+
+.idotext {
+    border-radius: 25%;
+    text-align: center;
+    padding: 10px 0;
+    height: 40px;
+    overflow: hidden;
+    margin-bottom: 50px; 
+}
+
+.naptext, .ora, .idotext {
+    line-height: 40px;
+}
+
+.nap {
+    width: 16.66%;
+}
+
+.ido {
+    width: 7%;
+}
+
+h1 {
+    text-align: center;
+    background-color:rgba(255, 255, 255, 25%);
+    width: 87.7%;
+    margin: auto;
+    margin-bottom: 25px;
+    /*text-shadow: 4px 3px 0px #7A7A7A;*/
+    /*text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;*/
+    text-shadow: 5px 5px rgba(0,0,0,0.3);
+}
